@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — LUMINA Immersive Light Exhibit</title>
+  <meta name="description"
+    content="Explore all 12 sensory chambers, optical installations, and the resident lighting artists behind LUMINA: Immersive Art & Light Installation Exhibit.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link">Tickets</a>
+        <a href="counselors.html" class="nav-link active">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link">Tickets</a>
+      <a href="counselors.html" class="nav-link active">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="blog.html" class="nav-link">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero has-grid">
+      <div class="container" style="text-align: center;">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> The 12 Immersive Chambers</span>
+        <h1 class="animate-fade-up delay-1">Exhibits &amp; Installations</h1>
+        <p class="lead animate-fade-up delay-2" style="max-width: 600px; margin: 0 auto;">Walk through monumental light architecture, responsive fiber-optic flora, and acoustic spatial fields created by world-renowned optical artists.</p>
+
+        <div class="animate-fade-up delay-2"
+          style="margin-top: var(--spacing-5); display: flex; gap: var(--spacing-3); justify-content: center; flex-wrap: wrap;">
+          <button class="btn btn-primary" style="padding: 8px 16px; border-radius: 20px;">All Exhibits</button>
+          <button class="btn btn-secondary" style="padding: 8px 16px; border-radius: 20px;">Laser &amp; Optics</button>
+          <button class="btn btn-secondary" style="padding: 8px 16px; border-radius: 20px;">Interactive Flora</button>
+          <button class="btn btn-secondary" style="padding: 8px 16px; border-radius: 20px;">Spatial Sound</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="section" style="padding-top: var(--spacing-6); padding-bottom: var(--spacing-6);">
+      <div class="container">
+        <div class="stat-band animate-fade-up">
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="12" data-suffix=" Chambers">0 Chambers</div>
+            <div class="stat-label">Full Sensory Realms</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="450" data-suffix="k+ Strands">0k+ Strands</div>
+            <div class="stat-label">Reactive Optical Fiber</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="64" data-suffix=" Channels">0 Channels</div>
+            <div class="stat-label">Spatial Beam-Formed Audio</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exhibits Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="counselor-grid">
+
+          <!-- Exhibit 1 -->
+          <div class="card animate-fade-up delay-1"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://vorlane.com/wp-content/uploads/2025/07/LED-infinity-dance-floor-synced-with-club-music-beats.webp" alt="Chromatic Infinity Void"
+              style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Chromatic Infinity Void</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: Dr. Elena Rodriguez</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Spatial Optics</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Infinity Mirrors</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                A suspended glass bridge traversing 120,000 individually programmed crystal LED nodes reflecting constellations endlessly through 360° two-way architectural mirrors.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+          <!-- Exhibit 2 -->
+          <div class="card animate-fade-up delay-2"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://woodncratedesigns.com/wp-content/uploads/2024/05/Twinkle-e1716913300518.jpeg" alt="Bioluminescent Canopy"
+              style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Bioluminescent Canopy</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: Sarah Jenkins</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Reactive Flora</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Fiber Optics</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                A 20-foot suspended canopy that senses thermal body heat and human proximity, blooming into rolling cascades of cyan and violet phosphorescent luminescence.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+          <!-- Exhibit 3 -->
+          <div class="card animate-fade-up delay-3"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://www.fyilight.com/upload/img/GY167936927483/kinetic-laser-light-for-concert.png?x-oss-process=image/format,webp/quality,Q_100" alt="Kinetic Laser Symphony"
+              style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Kinetic Laser Symphony</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: Marcus Chen</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Solid-State Lasers</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Kinetic Matrix</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                Micron-precision solid-state lasers project architectural planes and light corridors through organic haze, choreographed to bespoke 64-channel spatial synthesis.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+          <!-- Exhibit 4 -->
+          <div class="card animate-fade-up delay-1"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://i.pinimg.com/736x/59/ed/a5/59eda53f301bb8dfb9a54c233c46134f.jpg" alt="Celestial Mirage"
+              style="width: 100%; height: 280px; object-fit: cover;" loading="lazy">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Celestial Mirage</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: David Okonkwo</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">360° Dome Projection</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Volumetric Light</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                A towering geodesic dome enveloped in 16 synchronized 8K laser projectors that dissolve physical gravity into swimming nebulae and fluid light dynamics.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+          <!-- Exhibit 5 -->
+          <div class="card animate-fade-up delay-2"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://weburbanist.com/wp-content/uploads/2016/08/light-art-making.jpg" alt="Prismatic Echoes"
+              style="width: 100%; height: 280px; object-fit: cover;" loading="lazy">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Prismatic Echoes</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: Priya Raman</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Dichroic Prisms</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Refraction Art</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                Interactive geometric glass sculptures splitting incoming white laser beams into vibrant rainbow chromatic shadows that follow and warp around visitors' movements.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+          <!-- Exhibit 6 -->
+          <div class="card animate-fade-up delay-3"
+            style="padding: 0; overflow: hidden; align-items: stretch;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSlvNeZPmSHViT4BZhWddhEvcd1UeAuZgPaWZPkF2bpJpGeijUDKLrsOs&s=10" alt="Aurora Frequency"
+              style="width: 100%; height: 280px; object-fit: cover;" loading="lazy">
+            <div style="padding: var(--spacing-4); display: flex; flex-direction: column; flex: 1;">
+              <h3>Aurora Frequency</h3>
+              <p class="caption"
+                style="color: var(--accent); margin-bottom: var(--spacing-2); font-weight: var(--weight-bold-inline);">
+                Lead Artist: Thomas Beaumont</p>
+              <div style="display: flex; justify-content: center; gap: var(--spacing-2); margin-bottom: var(--spacing-3);">
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">Spatial Sound</span>
+                <span
+                  style="background-color: var(--bg-subtle); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--primary);">40Hz Resonance</span>
+              </div>
+              <p
+                style="font-size: var(--size-caption); color: var(--text-muted); margin-bottom: var(--spacing-4); flex: 1;">
+                A deep meditative chamber coupling 40Hz acoustic frequency sound baths with rhythmic pulsing infrared and violet illumination to induce tranquil brainwave states.</p>
+              <a href="services.html" class="btn btn-outline" style="width: 100%;">Book Visit Slot</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Navigate LUMINA -->
+    <section class="section has-mesh" id="matching" style="background-color: var(--bg-subtle);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>How to Experience the Exhibition</h2>
+          <p>Follow three simple principles to maximize your sensory exploration.</p>
+        </div>
+
+        <div class="step-grid">
+          <div class="step-card animate-fade-up delay-1">
+            <span class="step-num">01</span>
+            <h4>Calibrate your vision</h4>
+            <p>Spend the first 5 minutes in the twilight welcome vestibule allowing your retinas to adjust to darkness for heightened color sensitivity.</p>
+          </div>
+          <div class="step-card animate-fade-up delay-2">
+            <span class="step-num">02</span>
+            <h4>Wander without screens</h4>
+            <p>Pocket your phone and engage directly with the reactive surfaces. Touch the optical flora and observe your silhouette on light walls.</p>
+          </div>
+          <div class="step-card animate-fade-up delay-3">
+            <span class="step-num">03</span>
+            <h4>Rest in the sound bath</h4>
+            <p>Conclude your journey in Aurora Frequency to ground your sensory system before transitioning back to the vibrant city outside.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="services.html">Tickets</a>
+            <a href="counselors.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Journal</a>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html">Ticket Pricing</a>
+            <a href="services.html#faq">Sensory &amp; Entry FAQs</a>
+            <a href="contact.html#location-map">Location &amp; Directions</a>
+            <a href="blog.html">Sensory Journal</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

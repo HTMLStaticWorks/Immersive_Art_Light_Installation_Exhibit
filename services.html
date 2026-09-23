@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets — LUMINA Immersive Light Exhibit</title>
+  <meta name="description"
+    content="Purchase timed-entry tickets and explore daily timeslots for LUMINA: Immersive Art & Light Installation Exhibit. General admission, VIP Sensory Pass, and Family bundles.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link active">Tickets</a>
+        <a href="counselors.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link active">Tickets</a>
+      <a href="counselors.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="blog.html" class="nav-link">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero has-grid">
+      <div class="container" style="text-align: center;">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> Timed-Entry Admission</span>
+        <h1 class="animate-fade-up delay-1">Tickets &amp; Timeslots</h1>
+        <p class="lead animate-fade-up delay-2" style="max-width: 600px; margin: 0 auto;">To preserve an uncrowded, serene environment, all entry is timed. Select your experience tier and secure your preferred date.</p>
+      </div>
+    </section>
+
+    <!-- General Admission -->
+    <section class="section" id="general-admission">
+      <div class="container split-row">
+        <div class="split-copy split-copy--center animate-fade-up">
+          <h2>General Admission</h2>
+          <p class="lead">Full access to all 12 immersive chambers and spatial acoustic zones.</p>
+          <p>Experience the entire arc of LUMINA at your own pace. There is no forced one-way route &mdash; wander through mirrored voids, relax beneath responsive fiber-optic canopies, and marvel at volumetric lasers.</p>
+          <ul style="margin: var(--spacing-4) 0;">
+            <li style="margin-bottom: var(--spacing-2);"><strong>Full 12-Chamber Access:</strong> Step inside the Chromatic Infinity Void and Bioluminescent Canopy.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Interactive RFID Wristband:</strong> Triggers responsive lighting sequences as you approach installations.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Digital Audio Stream:</strong> Listen to spatial soundscapes and curatorial notes on your phone.</li>
+          </ul>
+          <div
+            style="padding: var(--spacing-4); background-color: var(--bg-subtle); border-radius: var(--radius); margin-top: var(--spacing-4);">
+            <p style="font-weight: var(--weight-label); color: var(--accent); margin-bottom: var(--spacing-2);"><i class="ph ph-info"></i> Arrival Advice</p>
+            <p class="caption" style="color: var(--text-muted); font-style: italic;">"Please arrive 15 minutes before your scheduled timeslot to allow for wristband sync and dark vision calibration in our welcome vestibule."</p>
+          </div>
+        </div>
+        <div class="split-media animate-fade-up">
+          <img src="https://i.ytimg.com/vi/68dw-i5hFz4/maxresdefault.jpg" alt="Chromatic Infinity Void Mirror Installation"
+            style="border-radius: var(--radius); box-shadow: var(--shadow);">
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeslots Breakdown -->
+    <section class="section" id="timeslots" style="background-color: var(--bg-subtle);">
+      <div class="container split-row">
+        <div class="split-media animate-fade-up">
+          <img src="https://eonumxnti94.exactdn.com/wp-content/uploads/2026/03/Luminarium-lead-image.jpg?strip=all" alt="LUMINA Chamber Timeslots"
+            style="border-radius: var(--radius); box-shadow: var(--shadow);">
+        </div>
+        <div class="split-copy split-copy--center animate-fade-up delay-1">
+          <h2>Daily Timeslot Windows</h2>
+          <p class="lead">Four distinct sensory atmospheres programmed throughout day and night.</p>
+          <p>Acoustic frequencies, ambient haze, and optical intensity dynamically shift across the day to harmonize with human biorhythms.</p>
+          <ul style="margin: var(--spacing-4) 0;">
+            <li style="margin-bottom: var(--spacing-2);"><strong>Morning Calm (10:00 AM – 12:30 PM):</strong> Lowest crowd capacity, gentle drone soundscapes, strobe-free sensory calm.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Afternoon Radiance (12:30 PM – 5:00 PM):</strong> Full-spectrum chromatic brilliance, highly active touch-reactive flora.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Sunset Twilight (5:00 PM – 7:30 PM):</strong> Meditative transition, rich indigo hues, prime photography conditions.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>After-Dark Neon (7:30 PM – 11:00 PM):</strong> Kinetic laser matrixes, deep resonant bass sound baths, 18+ atmosphere.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIP Pass -->
+    <section class="section" id="vip-pass">
+      <div class="container split-row">
+        <div class="split-copy split-copy--center animate-fade-up">
+          <h2>VIP Luminary Pass</h2>
+          <p class="lead">Unrestricted arrival flexibility and private sensory lounge access.</p>
+          <p>Treat yourself to the ultimate contemplative art encounter. Skip all lines, arrive at any time within your chosen day, and relax in our private Lumina Luminary Lounge with botanical elixirs.</p>
+          <ul style="margin: var(--spacing-4) 0;">
+            <li style="margin-bottom: var(--spacing-2);"><strong>Flexible Entry:</strong> Arrive anytime during your booked session with no penalty.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Private Luminary Lounge:</strong> Complimentary botanical teas, rest pods, and artist monographs.</li>
+            <li style="margin-bottom: var(--spacing-2);"><strong>Diffraction Prism Glasses:</strong> Keep our custom holographic optical glasses to view rainbow fractal light bursts.</li>
+          </ul>
+          <a href="dashboard.html" class="btn btn-primary" style="margin-top: var(--spacing-3);">Reserve VIP Luminary Pass</a>
+        </div>
+        <div class="split-media animate-fade-up">
+          <img src="assets/images/exhibit-bioluminescent-canopy.jpg" alt="VIP Luminary Experience"
+            style="border-radius: var(--radius); box-shadow: var(--shadow);">
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages & Pricing -->
+    <section class="section has-mesh" id="packages" style="background-color: var(--bg-subtle);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>Admission Tiers &amp; Passes</h2>
+          <p>All passes include guaranteed admission to all 12 chambers and the interactive digital guide.</p>
+        </div>
+
+        <div class="price-grid">
+          <!-- Tier 1 -->
+          <div class="price-card animate-fade-up delay-1">
+            <p class="price-tier">Standard</p>
+            <h3>General Admission</h3>
+            <div class="price-amount">$32 <small>/ entry</small></div>
+            <p class="price-desc">Full timed-entry access to all 12 exhibit chambers and digital audio guide.</p>
+            <ul class="price-features">
+              <li><i class="ph-fill ph-check-circle"></i> Reserved 30-min arrival window</li>
+              <li><i class="ph-fill ph-check-circle"></i> Access to all 12 exhibit chambers</li>
+              <li><i class="ph-fill ph-check-circle"></i> Interactive RFID wristband included</li>
+              <li><i class="ph-fill ph-check-circle"></i> Digital exhibition guide on mobile</li>
+              <li><i class="ph-fill ph-check-circle"></i> Free coat and bag check</li>
+            </ul>
+            <a href="dashboard.html" class="btn btn-outline" style="width: 100%;">Select General Admission</a>
+          </div>
+
+          <!-- Tier 2 (featured) -->
+          <div class="price-card featured animate-fade-up delay-2">
+            <span class="price-flag">Most popular</span>
+            <p class="price-tier" style="color: var(--accent-2);">All-Access</p>
+            <h3>VIP Luminary Pass</h3>
+            <div class="price-amount">$58 <small>/ entry</small></div>
+            <p class="price-desc">The ultimate sensory experience with flexible arrival, lounge access, and perks.</p>
+            <ul class="price-features">
+              <li><i class="ph-fill ph-check-circle"></i> Priority fast-track expedited lane</li>
+              <li><i class="ph-fill ph-check-circle"></i> Flexible &plusmn;2 hour arrival window</li>
+              <li><i class="ph-fill ph-check-circle"></i> Unlimited re-entry to all chambers</li>
+              <li><i class="ph-fill ph-check-circle"></i> Exclusive access to Luminary Lounge</li>
+              <li><i class="ph-fill ph-check-circle"></i> Complimentary herbal elixir drink</li>
+              <li><i class="ph-fill ph-check-circle"></i> Keepsake holographic prism glasses</li>
+            </ul>
+            <a href="dashboard.html" class="btn btn-primary" style="width: 100%;">Select VIP Luminary Pass</a>
+          </div>
+
+          <!-- Tier 3 -->
+          <div class="price-card animate-fade-up delay-3">
+            <p class="price-tier">Group &amp; Family</p>
+            <h3>Family &amp; Group Bundle</h3>
+            <div class="price-amount">$98 <small>/ 4 guests</small></div>
+            <p class="price-desc">Discounted admission for families or small groups of 4 exploring together.</p>
+            <ul class="price-features">
+              <li><i class="ph-fill ph-check-circle"></i> Entry for up to 4 visitors (any age)</li>
+              <li><i class="ph-fill ph-check-circle"></i> 4x Interactive sensory wristbands</li>
+              <li><i class="ph-fill ph-check-circle"></i> Youth optical discovery trail guide</li>
+              <li><i class="ph-fill ph-check-circle"></i> 15% discount at Lumina gift shop</li>
+              <li><i class="ph-fill ph-check-circle"></i> Dedicated family check-in lane</li>
+              <li><i class="ph-fill ph-check-circle"></i> Free rescheduling up to 24h prior</li>
+            </ul>
+            <a href="dashboard.html" class="btn btn-outline" style="width: 100%;">Select Family Bundle</a>
+          </div>
+        </div>
+
+        <p class="caption animate-fade-up delay-4" style="text-align: center; margin-top: var(--spacing-5);">Children under 3 enter free. Student, educator, and military discounts are verified automatically at online checkout.</p>
+      </div>
+    </section>
+
+    <!-- FAQ Section (Moved from Contact page) -->
+    <section class="section" id="faq" style="border-top: 1px solid var(--border);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about timed entry, ticket policies, sensory advisories, and exhibit amenities.</p>
+        </div>
+
+        <div class="faq-list animate-fade-up delay-1">
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>How does timed-entry ticketing work?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Each ticket reserves a specific 30-minute arrival window to prevent overcrowding and ensure an intimate sensory journey. Once inside, you may explore all 12 chambers at your own pace without time limits.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Can I exchange or reschedule my visit date and timeslot?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes. Tickets may be rescheduled self-serve through your Visitor Dashboard up to 24 hours prior to your reserved time without penalty, subject to slot availability.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Are flashing strobe lights or intense lasers used? (Sensory Advisory)</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Certain installations utilize volumetric beams and gentle pulsing illumination. We do not use continuous harsh strobes. Every Tuesday and Thursday morning, we host Sensory-Friendly Sessions with softened lighting and low sound levels.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Is photography and videography permitted inside the exhibit?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Handheld smartphone photos and non-commercial videos without flash are warmly welcomed and encouraged. Tripods, selfie sticks, and external lighting rigs are prohibited to protect mirrors and visitor sightlines.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>What benefits are included with the VIP Luminary Pass?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>The VIP Luminary Pass grants priority expedited entry, a flexible &plusmn;2 hour arrival window, unlimited re-entry, Luminary Lounge access with complimentary botanical elixirs, and keepsake holographic diffraction glasses.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Are discounts available for students, educators, and groups?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes! We offer a 15% discount for verified students and seniors, and special 25% group rates for parties of 15 or more. Discounts apply automatically at checkout or via our Contact inquiry form.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Is the exhibition wheelchair and stroller accessible?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes. 100% of the LUMINA pavilion is ADA compliant, featuring level thresholds, wide smooth walkways, accessible sensory rest stations, and elevator service to all elevated viewing platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="services.html">Tickets</a>
+            <a href="counselors.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Journal</a>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html">Ticket Pricing</a>
+            <a href="services.html#faq">Sensory &amp; Entry FAQs</a>
+            <a href="contact.html#location-map">Location &amp; Directions</a>
+            <a href="blog.html">Sensory Journal</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

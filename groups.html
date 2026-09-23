@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group &amp; School Bookings — LUMINA Immersive Light Exhibit</title>
+  <meta name="description" content="Reserve educational field trips, university tours, and private corporate group buyouts at LUMINA Immersive Art & Light Installation Exhibit.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link">Tickets &amp; Timeslots</a>
+        <a href="counselors.html" class="nav-link">Exhibits</a>
+        <a href="contact.html" class="nav-link active">Group &amp; School Bookings</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link">Tickets &amp; Timeslots</a>
+      <a href="counselors.html" class="nav-link">Exhibits</a>
+      <a href="contact.html" class="nav-link active">Group &amp; School Bookings</a>
+      <a href="blog.html" class="nav-link">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero has-grid">
+      <div class="container" style="text-align: center;">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> Field Trips &amp; Private Tours</span>
+        <h1 class="animate-fade-up delay-1">Group &amp; School Bookings</h1>
+        <p class="lead animate-fade-up delay-2" style="max-width: 600px; margin: 0 auto;">Inspire students with interactive optical physics, or host an unforgettable private corporate evening buyout.</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-6);">
+          
+          <!-- Contact Form -->
+          <div style="flex: 1; min-width: 300px;" class="animate-fade-up delay-1">
+            <div class="card" style="align-items: stretch; text-align: left;">
+              <h3 style="text-align: left; margin-bottom: var(--spacing-4);">Group Reservation Inquiry</h3>
+              <!-- Formspree placeholder action -->
+              <form class="validate-form" action="https://formspree.io/f/placeholder" method="POST" novalidate>
+                <div class="form-group">
+                  <label class="form-label" for="name">Contact / Coordinator Name</label>
+                  <input type="text" id="name" name="name" class="form-control" required placeholder="Lead Educator or Event Organizer">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Organization Email</label>
+                  <input type="email" id="email" name="email" class="form-control" required placeholder="coordinator@school.edu">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="grade">Group Category</label>
+                  <select id="grade" name="grade" class="form-control">
+                    <option value="k12" selected>K-12 School Field Trip (STEM / Arts)</option>
+                    <option value="university">University / College Department</option>
+                    <option value="corporate">Corporate Private Buyout</option>
+                    <option value="tour">Tour Operator / Large Group (15+)</option>
+                    <option value="community">Community / Non-Profit Group</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="message">Group Size &amp; Visit Details</label>
+                  <textarea id="message" name="message" class="form-control" rows="4" required placeholder="Estimated number of guests, preferred dates, and any sensory or accessibility accommodations..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Group Request</button>
+              </form>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div style="flex: 1; min-width: 300px;" class="animate-fade-up delay-2">
+            <h2 style="text-align: start;">Group Concierge Office</h2>
+            <p style="margin-bottom: var(--spacing-5);">Our educational coordinators and private events team respond within 24 business hours.</p>
+            
+            <div style="display: flex; flex-direction: column; gap: var(--spacing-4); margin-bottom: var(--spacing-5);">
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-envelope"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Email</h4>
+                  <p style="color: var(--text-muted); margin: 0;">groups@lumina-exhibit.art</p>
+                </div>
+              </div>
+              
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-phone"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Phone</h4>
+                  <p style="color: var(--text-muted); margin: 0;">+1 (888) 586-4621 (LUMINA-1)</p>
+                </div>
+              </div>
+              
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-map-pin"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Exhibition Pavilion</h4>
+                  <p style="color: var(--text-muted); margin: 0;">The Lumina Pavilion, 800 Innovation Way<br>Arts &amp; Design District, CA 94107</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Follow us -->
+            <div class="contact-follow">
+              <p class="trust-label" style="margin-bottom: var(--spacing-3);">Connect with LUMINA</p>
+              <div class="social-follow">
+                <a href="#" aria-label="LUMINA on Instagram"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#" aria-label="LUMINA on YouTube"><i class="ph ph-youtube-logo"></i></a>
+                <a href="#" aria-label="LUMINA on TikTok"><i class="ph ph-tiktok-logo"></i></a>
+                <a href="#" aria-label="LUMINA on LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+              </div>
+              <p class="caption" style="margin: var(--spacing-3) 0 0;">Follow our social channels for behind-the-scenes engineering clips and artist announcements.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Key information for teachers, tour organizers, and private event planners.</p>
+        </div>
+
+        <div class="faq-list animate-fade-up delay-1">
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>What is the minimum group size for educational rates?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Groups of 15 or more qualify for our educational and group rates, which feature up to a 25% discount off standard general admission, plus complimentary chaperone tickets.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Are chaperone tickets complimentary for school groups?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes. We provide 1 complimentary educator/chaperone ticket for every 8 students in grades K&ndash;8, and 1 complimentary ticket for every 10 students in high school and college groups.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Do you provide educational STEM &amp; Art curriculum packets?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes! Every registered school group receives our downloadable Educator Packet, featuring curriculum-aligned activities on light wave physics, laser diffraction, optical illusions, and spatial acoustic design.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Can we book the entire exhibit for a private corporate buyout?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Private evening buyouts are available Monday through Thursday from 8:00 PM to 11:30 PM, accommodating up to 400 guests with custom projection branding and sensory botanical bar service.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>What accommodations are available for sensory-sensitive visitors?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>We host dedicated Sensory-Friendly School &amp; Community mornings every Tuesday and Thursday with strobe effects disabled, audio reduced by 40%, and quiet transition lounges available.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span>Is bus parking and ADA accessible drop-off available?</span>
+              <i class="ph ph-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-a">
+              <p>Yes. The Lumina Pavilion features a dedicated motorcoach loading zone on Innovation Way with free bus parking during school hours and ADA compliant ground-level access throughout all 12 chambers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Exhibition</h4>
+          <div class="footer-links">
+            <a href="counselors.html">All 12 Installations</a>
+            <a href="services.html">Timeslots &amp; Pricing</a>
+            <a href="contact.html">Group &amp; School Bookings</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html#vip-pass">VIP Sensory Pass</a>
+            <a href="contact.html#faqs">Accessibility &amp; Strobe Notice</a>
+            <a href="blog.html">Sensory Journal</a>
+            <a href="contact.html">Directions &amp; Parking</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

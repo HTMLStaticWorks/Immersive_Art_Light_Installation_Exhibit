@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal — LUMINA Immersive Light Exhibit</title>
+  <meta name="description"
+    content="Curatorial essays, optical physics insights, and behind-the-scenes engineering from the artists and curators of LUMINA Immersive Light Exhibit.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link">Tickets</a>
+        <a href="counselors.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="blog.html" class="nav-link active">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link">Tickets</a>
+      <a href="counselors.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="blog.html" class="nav-link active">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero has-grid">
+      <div class="container" style="text-align: center;">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> Sensory Art &amp; Optics Journal</span>
+        <h1 class="animate-fade-up delay-1">Explorations in Light</h1>
+        <p class="lead animate-fade-up delay-2" style="max-width: 600px; margin: 0 auto;">Curatorial essays, optical physics deep-dives, and behind-the-scenes engineering from the creators of LUMINA.</p>
+      </div>
+    </section>
+
+    <!-- Browse by Topic -->
+    <section class="section" style="padding-top: var(--spacing-6); padding-bottom: var(--spacing-6);">
+      <div class="container" style="text-align: center;">
+        <div class="animate-fade-up">
+          <p class="trust-label" style="margin-bottom: var(--spacing-4);">Browse by topic</p>
+          <div class="tag-cloud">
+            <span class="tag">Optical Physics</span>
+            <span class="tag">Laser Architecture</span>
+            <span class="tag">Spatial Sound</span>
+            <span class="tag">Bioluminescence</span>
+            <span class="tag">Perception &amp; Brainwaves</span>
+            <span class="tag">Exhibition Design</span>
+            <span class="tag">Sensory Therapy</span>
+            <span class="tag">Visitor Guides</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="post-grid">
+
+          <!-- Blog Card 1 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRu20ybyihxepbcRN-laF8H9jmw5mnAPVO9UDIeep-jfm1LUuSwYsmXY8&s=10" alt="Chromatic Infinity Chamber" class="post-card-media">
+            <div class="post-card-body">
+              <span class="post-card-tag">Optical Physics</span>
+              <h3>Designing the Infinite Void: The Geometry of Two-Way Mirrors</h3>
+              <p>How micron-thin dielectric coatings and 120,000 suspended LED nodes dissolve physical architectural enclosure into infinite cosmic space.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By Dr. Elena Rodriguez</span>
+                <span class="caption">Oct 12, 2026</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Blog Card 2 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-2">
+            <img src="https://nfllaser.com/cdn/shop/articles/laserfabrik_parookaville_festival_2019_04_02b4c82006157d684b4ef6b04ecee092.jpg?v=1690183829" alt="Kinetic Laser Symphony" class="post-card-media">
+            <div class="post-card-body">
+              <span class="post-card-tag">Laser Architecture</span>
+              <h3>Sculpting Solid Light: Safety, Mist &amp; Diffraction Optics</h3>
+              <p>Transforming high-precision solid-state laser diodes into palpable architectural planes and tunnels through organic haze.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By Marcus Chen</span>
+                <span class="caption">Sep 28, 2026</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Blog Card 3 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-3">
+            <img src="https://kalakritievents.in/wp-content/uploads/2026/06/birthday-decoration-in-rooftop-evening-setup.png" alt="Bioluminescent Flora" class="post-card-media">
+            <div class="post-card-body">
+              <span class="post-card-tag">Bioluminescence</span>
+              <h3>The Living Canopy: Crafting Touch-Responsive Fiber Optics</h3>
+              <p>Engineering 450,000 optical filaments to react organically to human touch, presence, and thermal energy fields.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By Sarah Jenkins</span>
+                <span class="caption">Sep 15, 2026</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Blog Card 4 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-1">
+            <img src="https://audiovisualnation.com/wp-content/uploads/Copy-of-IMG_0222-1.jpg" alt="Spatial Sound Bath"
+              class="post-card-media" loading="lazy">
+            <div class="post-card-body">
+              <span class="post-card-tag">Spatial Sound</span>
+              <h3>40Hz Sound Frequencies and Sensory Grounding</h3>
+              <p>Why sub-bass resonance coupled with rhythmic violet wavelengths calms high-stress urban visitor nervous systems.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By Thomas Beaumont</span>
+                <span class="caption">Sep 2, 2026</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Blog Card 5 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-2">
+            <img src="https://static.designboom.com/wp-content/uploads/2014/12/downtown-montreal-kaleidoscope-RAW-designboom-04.jpg"
+              alt="Prismatic Light Refraction" class="post-card-media" loading="lazy">
+            <div class="post-card-body">
+              <span class="post-card-tag">Visitor Guides</span>
+              <h3>Preparing Your Senses for Deep Immersion</h3>
+              <p>What to wear, how to adjust your vision in our vestibule, and five tips to experience LUMINA free from screen distraction.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By Priya Raman</span>
+                <span class="caption">Aug 21, 2026</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Blog Card 6 -->
+          <a href="blog.html" class="card post-card animate-fade-up delay-3">
+            <img src="assets/images/hero-light-chamber.jpg"
+              alt="Curating Silence in Light" class="post-card-media" loading="lazy">
+            <div class="post-card-body">
+              <span class="post-card-tag">Exhibition Design</span>
+              <h3>Curating Silence in a Dynamic Light Environment</h3>
+              <p>Balancing high-energy kinetic laser corridors with quiet, contemplative sanctuaries in large-scale installations.</p>
+              <span class="post-readmore">Read essay <i class="ph ph-arrow-right"></i></span>
+              <div class="post-card-meta">
+                <span class="caption">By David Okonkwo</span>
+                <span class="caption">Aug 8, 2026</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource Library -->
+    <section class="section has-mesh" id="resources" style="background-color: var(--bg-subtle);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>Exhibition Publications &amp; Guides</h2>
+          <p>Downloadable monographs, educator field trip packets, and spatial audio soundtracks.</p>
+        </div>
+
+        <div class="resource-grid">
+          <div class="resource-card animate-fade-up delay-1">
+            <div class="resource-icon"><i class="ph ph-book-open"></i></div>
+            <div class="resource-body">
+              <h4>LUMINA Curatorial Monograph</h4>
+              <p>A 48-page monograph detailing the optical physics, artist statements, and architectural diagrams of all 12 chambers.</p>
+              <span class="resource-meta"><i class="ph ph-download-simple"></i> PDF &middot; 48 pages</span>
+            </div>
+          </div>
+
+          <div class="resource-card animate-fade-up delay-2">
+            <div class="resource-icon"><i class="ph ph-graduation-cap"></i></div>
+            <div class="resource-body">
+              <h4>K-12 STEM &amp; Arts Educator Packet</h4>
+              <p>Curriculum-aligned lesson plans on light wave behavior, laser diffraction, and digital projection engineering.</p>
+              <span class="resource-meta"><i class="ph ph-download-simple"></i> Curriculum PDF &middot; Grades 4&ndash;12</span>
+            </div>
+          </div>
+
+          <div class="resource-card animate-fade-up delay-3">
+            <div class="resource-icon"><i class="ph ph-headphones"></i></div>
+            <div class="resource-body">
+              <h4>Spatial Audio Soundscapes</h4>
+              <p>Studio-mastered binaural recordings of the 64-channel acoustic arrangements for home meditation and headphone listening.</p>
+              <span class="resource-meta"><i class="ph ph-download-simple"></i> Lossless Audio &middot; 12 Chamber Tracks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="services.html">Tickets</a>
+            <a href="counselors.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Journal</a>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html">Ticket Pricing</a>
+            <a href="services.html#faq">Sensory &amp; Entry FAQs</a>
+            <a href="contact.html#location-map">Location &amp; Directions</a>
+            <a href="blog.html">Sensory Journal</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

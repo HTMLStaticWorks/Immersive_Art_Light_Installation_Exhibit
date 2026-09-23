@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMINA — Immersive Art & Light Installation Exhibit</title>
+  <meta name="description"
+    content="Experience LUMINA, an extraordinary immersive light and sensory art installation exhibit featuring 12 interactive zones, volumetric lasers, and 360° spatial acoustics.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Icon Font -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body class="has-hero-bg">
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link">Tickets</a>
+        <a href="counselors.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link">Tickets</a>
+      <a href="counselors.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="blog.html" class="nav-link">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-bg hero-bg--center">
+      <div class="hero-bg-media">
+        <img src="https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/foresta_lumina_moment_factory_metalocus_10_1280.jpg?itok=VPkneuiE"
+          alt="LUMINA Immersive Art & Light Installation Exhibit" fetchpriority="high">
+      </div>
+      <div class="container hero-content">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> 2026&ndash;27 Season Now Open</span>
+        <h1 class="animate-fade-up delay-1">Step beyond the spectrum into <span class="text-gradient">pure radiant light</span>.</h1>
+        <p class="lead animate-fade-up delay-2" style="margin: 0 auto var(--spacing-5); max-width: 680px;">An awe-inspiring sensory odyssey through 15,000 sq. ft. of reactive light installations, volumetric laser architecture, and hypnotic 360° spatial acoustics.</p>
+        <div class="animate-fade-up delay-3"
+          style="display: flex; gap: var(--spacing-3); justify-content: center; flex-wrap: wrap; margin-bottom: var(--spacing-7);">
+          <a href="services.html" class="btn btn-primary btn-lg">Book Timed Tickets <i
+              class="ph ph-arrow-right"></i></a>
+          <a href="counselors.html" class="btn btn-outline btn-lg">Explore All Exhibits</a>
+        </div>
+
+        <div class="stat-band animate-fade-up delay-4">
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="12" data-suffix=" Zones">0 Zones</div>
+            <div class="stat-label">Sensory Environments</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="450" data-suffix="k+">0k+</div>
+            <div class="stat-label">Lumens of Optical Power</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-count-to="99" data-suffix=".4%">0%</div>
+            <div class="stat-label">Visitor Awe &amp; Impact Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Strip -->
+    <section class="trust-strip">
+      <div class="container">
+        <p class="trust-label">Acclaimed by international critics &amp; design institutions</p>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span class="marquee-item">Architectural Digest</span>
+          <span class="marquee-item">Wired</span>
+          <span class="marquee-item">Artforum</span>
+          <span class="marquee-item">MoMA Design</span>
+          <span class="marquee-item">Wallpaper*</span>
+          <span class="marquee-item">Tokyo Art Beat</span>
+          <span class="marquee-item">Fast Company</span>
+          <span class="marquee-item">Surface Magazine</span>
+          <span class="marquee-item">Venice Biennale</span>
+          <span class="marquee-item">Creative Review</span>
+        </div>
+        <div class="marquee-track">
+          <span class="marquee-item">Architectural Digest</span>
+          <span class="marquee-item">Wired</span>
+          <span class="marquee-item">Artforum</span>
+          <span class="marquee-item">MoMA Design</span>
+          <span class="marquee-item">Wallpaper*</span>
+          <span class="marquee-item">Tokyo Art Beat</span>
+          <span class="marquee-item">Fast Company</span>
+          <span class="marquee-item">Surface Magazine</span>
+          <span class="marquee-item">Venice Biennale</span>
+          <span class="marquee-item">Creative Review</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Exhibits Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2>Featured Exhibit Previews</h2>
+          <p>Immerse yourself in three iconic chambers from our twelve-part sensory exhibition.</p>
+        </div>
+        <div class="services-grid">
+          <!-- Exhibit 1 -->
+          <div class="card service-card animate-fade-up delay-1">
+            <div class="service-card-media">
+              <img src="https://hyperspacelight.com/cdn/shop/files/infinity-mirror-box.jpg?v=1683064365&width=3000"
+                alt="Chromatic Infinity Void mirror installation" loading="lazy">
+              <div class="service-card-badge" aria-hidden="true">
+                <i class="ph ph-sparkle"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3>Chromatic Infinity Void</h3>
+              <p>Traverse suspended glass pathways within an endless horizon of 120,000 crystal LEDs reflecting constellations through infinite space.
+              </p>
+              <a href="counselors.html" class="service-card-link">
+                Explore installation <i class="ph ph-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Exhibit 2 -->
+          <div class="card service-card animate-fade-up delay-2">
+            <div class="service-card-media">
+              <img src="https://www.fiberopticlighting.com/image/outdoor-lighting/intro/garden-of-light-fiber-optic-lighting.jpg"
+                alt="Bioluminescent Flora Canopy optical fiber installation"
+                loading="lazy">
+              <div class="service-card-badge" aria-hidden="true">
+                <i class="ph ph-plant"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3>Bioluminescent Canopy</h3>
+              <p>Stand beneath a living botanical forest of 450,000 optical fiber strands that ripple with radiant bioluminescence in response to human touch.
+              </p>
+              <a href="counselors.html" class="service-card-link">
+                Explore installation <i class="ph ph-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Exhibit 3 -->
+          <div class="card service-card animate-fade-up delay-3">
+            <div class="service-card-media">
+              <img src="https://static.wixstatic.com/media/4b2dca_b8bfa38fc144479ea09e370582f2b5b4~mv2.jpg/v1/fill/w_752,h_424,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4b2dca_b8bfa38fc144479ea09e370582f2b5b4~mv2.jpg"
+                alt="Kinetic Laser Symphony architectural light beams" loading="lazy">
+              <div class="service-card-badge" aria-hidden="true">
+                <i class="ph ph-broadcast"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3>Kinetic Laser Symphony</h3>
+              <p>Solid-state lasers sculpt architectural planes and luminous geometric tunnels through atmospheric haze, pulsed to 64-channel spatial sound.</p>
+              <a href="counselors.html" class="service-card-link">
+                Explore installation <i class="ph ph-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive: Sensory Experience Matcher -->
+    <section class="section has-mesh" id="readiness" style="background-color: var(--bg-subtle);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <div class="divider-rule"></div>
+          <h2>Find Your Ideal Sensory Route</h2>
+          <p>Answer five intuitive preference questions to discover your personalized exhibition path and ideal timed-entry window.</p>
+        </div>
+
+        <div class="scorecard animate-fade-up delay-1" id="scorecard">
+          <div>
+            <div class="quiz-step" data-metric="academics" data-weight="24">
+              <div class="quiz-q"><span class="q-num">1</span> What light atmosphere draws you most?</div>
+              <div class="chip-row" role="group" aria-label="Light Atmosphere">
+                <button type="button" class="chip" data-value="0.35" aria-pressed="false">Subtle Twilight</button>
+                <button type="button" class="chip" data-value="0.6" aria-pressed="false">Prismatic Glow</button>
+                <button type="button" class="chip" data-value="0.85" aria-pressed="false">Infinite Mirrors</button>
+                <button type="button" class="chip" data-value="1" aria-pressed="false">Kinetic Lasers</button>
+              </div>
+            </div>
+
+            <div class="quiz-step" data-metric="rigor" data-weight="18">
+              <div class="quiz-q"><span class="q-num">2</span> What soundscape profile do you prefer?</div>
+              <div class="chip-row" role="group" aria-label="Soundscape profile">
+                <button type="button" class="chip" data-value="0.4" aria-pressed="false">Near-Silence / Drone</button>
+                <button type="button" class="chip" data-value="0.7" aria-pressed="false">Spatial 3D Acoustics</button>
+                <button type="button" class="chip" data-value="1" aria-pressed="false">Pulsing Bass Resonance</button>
+              </div>
+            </div>
+
+            <div class="quiz-step" data-metric="activities" data-weight="22">
+              <div class="quiz-q"><span class="q-num">3</span> Preferred level of physical interactivity?</div>
+              <div class="chip-row" role="group" aria-label="Interactivity level">
+                <button type="button" class="chip" data-value="0.3" aria-pressed="false">Pure Contemplation</button>
+                <button type="button" class="chip" data-value="0.65" aria-pressed="false">Touch-Reactive Flora</button>
+                <button type="button" class="chip" data-value="0.85" aria-pressed="false">Shadow &amp; Silhouette</button>
+                <button type="button" class="chip" data-value="1" aria-pressed="false">Full Motion Mapping</button>
+              </div>
+            </div>
+
+            <div class="quiz-step" data-metric="essays" data-weight="22">
+              <div class="quiz-q"><span class="q-num">4</span> How do you want to pace your visit?</div>
+              <div class="chip-row" role="group" aria-label="Visit pace">
+                <button type="button" class="chip" data-value="0.2" aria-pressed="false">Quick Discovery (45m)</button>
+                <button type="button" class="chip" data-value="0.5" aria-pressed="false">Standard Tour (75m)</button>
+                <button type="button" class="chip" data-value="0.8" aria-pressed="false">Deep Immersion (2h)</button>
+                <button type="button" class="chip" data-value="1" aria-pressed="false">VIP All-Access Pass</button>
+              </div>
+            </div>
+
+            <div class="quiz-step" data-metric="timeline" data-weight="14">
+              <div class="quiz-q"><span class="q-num">5</span> What time of day will you experience LUMINA?</div>
+              <div class="chip-row" role="group" aria-label="Timeslot preference">
+                <button type="button" class="chip" data-value="0.45" aria-pressed="false">Morning Calm (10 AM)</button>
+                <button type="button" class="chip" data-value="0.8" aria-pressed="false">Sunset Twilight (5:30 PM)</button>
+                <button type="button" class="chip" data-value="1" aria-pressed="false">After-Dark Neon (8 PM+)</button>
+              </div>
+            </div>
+
+            <button type="button" class="quiz-reset"><i class="ph ph-arrow-counter-clockwise"></i> Reset
+              answers</button>
+          </div>
+
+          <aside class="score-panel">
+            <p class="stat-label" style="color: rgba(255,255,255,0.55); margin-bottom: var(--spacing-4);">Sensory Match Index</p>
+
+            <div class="score-dial">
+              <svg width="190" height="190" viewBox="0 0 190 190" role="img" aria-label="Sensory match dial">
+                <defs>
+                  <linearGradient id="scoreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#22d3ee"></stop>
+                    <stop offset="100%" stop-color="#a855f7"></stop>
+                  </linearGradient>
+                </defs>
+                <circle class="dial-track" cx="95" cy="95" r="82" fill="none" stroke-width="12"></circle>
+                <circle class="dial-value" cx="95" cy="95" r="82" fill="none" stroke-width="12"></circle>
+              </svg>
+              <div class="dial-readout">
+                <span class="dial-number">0</span>
+                <span class="dial-caption">Immersion %</span>
+              </div>
+            </div>
+
+            <span class="score-tier">Select your preferences</span>
+            <p class="score-note">Select your sensory preferences to curate your custom exhibit route and ideal timeslot.</p>
+
+            <div class="score-bars">
+              <div class="score-bar-row" data-bar="academics">
+                <div class="score-bar-label"><span>Visual Intensity</span><span data-bar-value>0%</span></div>
+                <div class="score-bar"><i></i></div>
+              </div>
+              <div class="score-bar-row" data-bar="activities">
+                <div class="score-bar-label"><span>Spatial Acoustics</span><span data-bar-value>0%</span></div>
+                <div class="score-bar"><i></i></div>
+              </div>
+              <div class="score-bar-row" data-bar="essays">
+                <div class="score-bar-label"><span>Kinetic Energy</span><span data-bar-value>0%</span></div>
+                <div class="score-bar"><i></i></div>
+              </div>
+            </div>
+
+            <a href="services.html" class="btn btn-primary" style="width: 100%;">Book Matching Timeslot</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visitor Stories -->
+    <section class="section" style="background-color: var(--bg-subtle);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2>Visitor Impressions &amp; Experiences</h2>
+          <p>Reflections from art curators, creative technologists, and curious explorers.</p>
+        </div>
+        <div class="stories-grid">
+          <!-- Story 1: Sarah M. -->
+          <div class="card story-card animate-fade-up delay-1">
+            <div class="story-card-media">
+              <img src="https://iconeluce.com/wp-content/uploads/2022/04/Infinity-Rooms-di-Yayoi-Kusama-7-840x559.jpg" alt="Chromatic Infinity Chamber" loading="lazy">
+              <div class="story-card-overlay"></div>
+              <span class="story-card-badge">
+                <i class="ph-fill ph-check-circle"></i> Verified Visit
+              </span>
+              <div class="story-card-school">
+                <h4 class="story-school-name">Chromatic Infinity Void</h4>
+              </div>
+            </div>
+            <div class="story-card-body">
+              <div class="story-author-row">
+                <img src="assets/images/testimonial-avatar-sarah-cs-econ.jpg" alt="Sarah M." class="story-author-avatar"
+                  loading="lazy">
+                <div class="story-author-info">
+                  <h4>Sarah M.</h4>
+                  <p>Contemporary Art Curator</p>
+                </div>
+              </div>
+              <div class="story-rating" aria-label="5 out of 5 stars">
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+              </div>
+              <p class="story-quote">"LUMINA redefines what spatial exhibition can be. Standing in the Chromatic Infinity Void completely dissolved my sense of physical enclosure into pure starlight."</p>
+            </div>
+          </div>
+
+          <!-- Story 2: James K. -->
+          <div class="card story-card animate-fade-up delay-2">
+            <div class="story-card-media">
+              <img src="https://www.fyilight.com/upload/img/GY167936927483/kinetic-laser-light-for-concert.png?x-oss-process=image/format,webp/quality,Q_100" alt="Kinetic Laser Symphony" loading="lazy">
+              <div class="story-card-overlay"></div>
+              <span class="story-card-badge">
+                <i class="ph-fill ph-check-circle"></i> Verified Visit
+              </span>
+              <div class="story-card-school">
+                <h4 class="story-school-name">Kinetic Laser Symphony</h4>
+              </div>
+            </div>
+            <div class="story-card-body">
+              <div class="story-author-row">
+                <img src="assets/images/testimonial-avatar-james-robotics.jpg" alt="James K."
+                  class="story-author-avatar" loading="lazy">
+                <div class="story-author-info">
+                  <h4>James K.</h4>
+                  <p>Creative Technologist &amp; Architect</p>
+                </div>
+              </div>
+              <div class="story-rating" aria-label="5 out of 5 stars">
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+              </div>
+              <p class="story-quote">"The real-time synchronization between the 64-channel beam-formed audio arrays and solid-state diffraction lasers is an astonishing feat of engineering and beauty."</p>
+            </div>
+          </div>
+
+          <!-- Story 3: Aisha R. -->
+          <div class="card story-card animate-fade-up delay-3">
+            <div class="story-card-media">
+              <img src="https://images.stockcake.com/public/6/8/9/6899738c-be9b-4d8e-b568-7a3e8d41cf73/neon-forest-canopy-stockcake.jpg" alt="Bioluminescent Canopy"
+                loading="lazy">
+              <div class="story-card-overlay"></div>
+              <span class="story-card-badge">
+                <i class="ph-fill ph-check-circle"></i> Verified Visit
+              </span>
+              <div class="story-card-school">
+                <h4 class="story-school-name">Bioluminescent Canopy</h4>
+              </div>
+            </div>
+            <div class="story-card-body">
+              <div class="story-author-row">
+                <img src="assets/images/testimonial-avatar-aisha-intl-relations.jpg" alt="Aisha R."
+                  class="story-author-avatar" loading="lazy">
+                <div class="story-author-info">
+                  <h4>Aisha R.</h4>
+                  <p>Ambient Sound Designer</p>
+                </div>
+              </div>
+              <div class="story-rating" aria-label="5 out of 5 stars">
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+              </div>
+              <p class="story-quote">"The fiber-optic flora creates an intimacy that caught me by surprise. You touch a glowing vine, and an acoustic ripple rolls through the whole room like living breath."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section">
+      <div class="container split-row">
+        <div class="split-media animate-fade-up">
+          <img src="https://lucept.com/wp-content/uploads/2014/10/electroland_directv_cyclone_img_1719.jpg" alt="LUMINA Exhibition Space"
+            style="border-radius: var(--radius); box-shadow: var(--shadow);">
+        </div>
+        <div class="split-copy split-copy--center animate-fade-up delay-2">
+          <h2>The Alchemy of Light, Space &amp; Sensation</h2>
+          <p>Founded by an international collective of lighting designers, spatial acoustic architects, and optical physicists, LUMINA transforms raw photons and frequencies into profound sensory memories.</p>
+          <ul
+            style="margin: var(--spacing-4) auto; display: flex; flex-direction: column; align-items: flex-start; width: fit-content; margin-inline: auto; gap: var(--spacing-2); text-align: left;">
+            <li style="display: flex; align-items: center; gap: var(--spacing-2);"><i class="ph-fill ph-check-circle"
+                style="color: var(--success); font-size: 1.2rem;"></i> 15,000 sq. ft. purpose-built optical pavilion</li>
+            
+            <li style="display: flex; align-items: center; gap: var(--spacing-2);"><i class="ph-fill ph-check-circle"
+                style="color: var(--success); font-size: 1.2rem;"></i> Accessible, sensory-friendly hours every weekend</li>
+          </ul>
+          <a href="counselors.html" class="btn btn-outline" style="margin-top: var(--spacing-2);">Meet the artists &amp; engineers</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section has-mesh" style="background: var(--gradient-ink); color: #ffffff;">
+      <div class="container" style="text-align: center; max-width: 820px;">
+        <span class="eyebrow animate-fade-up"
+          style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.16); color: var(--accent-2);"><span
+            class="eyebrow-dot" style="background: var(--accent-2);"></span> Timed Entry Only &middot; Limited Capacity</span>
+        <h2 class="animate-fade-up delay-1" style="color: #ffffff; margin-bottom: var(--spacing-3);">Ready to step into the light?</h2>
+        <p class="lead animate-fade-up delay-2" style="color: rgba(255,255,255,0.78); margin-bottom: var(--spacing-5);">
+          To guarantee an intimate, uncrowded atmosphere, tickets are strictly limited per timeslot. Secure your preferred date and entry window today.</p>
+        <div class="animate-fade-up delay-3"
+          style="display: flex; gap: var(--spacing-3); justify-content: center; flex-wrap: wrap;">
+          <a href="services.html" class="btn btn-primary btn-lg">Book Timed Tickets <i
+              class="ph ph-arrow-right"></i></a>
+          <a href="contact.html" class="btn btn-lg"
+            style="color: #fff; border: 1.5px solid rgba(255,255,255,0.25);">Group &amp; School Bookings</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="services.html">Tickets</a>
+            <a href="counselors.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Journal</a>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html">Ticket Pricing</a>
+            <a href="services.html#faq">Sensory &amp; Entry FAQs</a>
+            <a href="contact.html#location-map">Location &amp; Directions</a>
+            <a href="blog.html">Sensory Journal</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

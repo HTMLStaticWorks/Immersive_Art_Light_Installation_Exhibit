@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — LUMINA Immersive Light Exhibit</title>
+  <meta name="description" content="Reserve educational field trips, group admissions, and private event buyouts at LUMINA Immersive Art & Light Installation Exhibit.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <!-- Reveal-on-scroll: flag JS before first paint to avoid a flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="home2.html" class="nav-link">Home 2</a>
+        <a href="services.html" class="nav-link">Tickets</a>
+        <a href="counselors.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+        <a href="login.html" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <div class="nav-drawer">
+    <div class="drawer-header">
+      <a href="index.html" class="logo"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="services.html" class="nav-link">Tickets</a>
+      <a href="counselors.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+      <a href="blog.html" class="nav-link">Journal</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="login.html" class="btn btn-primary" style="width: 100%;">Login</a>
+      <div class="drawer-actions-row">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ph ph-moon"></i>
+        </button>
+        <button class="rtl-toggle" aria-label="Toggle RTL">
+          <i class="ph ph-arrows-left-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero has-grid">
+      <div class="container" style="text-align: center;">
+        <span class="eyebrow animate-fade-up"><span class="eyebrow-dot"></span> Field Trips &amp; Private Tours</span>
+        <h1 class="animate-fade-up delay-1">Group &amp; School Bookings</h1>
+        <p class="lead animate-fade-up delay-2" style="max-width: 600px; margin: 0 auto;">Inspire students with interactive optical physics, or host an unforgettable private corporate evening buyout.</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-6);">
+          
+          <!-- Contact Form -->
+          <div style="flex: 1; min-width: 300px;" class="animate-fade-up delay-1">
+            <div class="card" style="align-items: stretch; text-align: left;">
+              <h3 style="text-align: left; margin-bottom: var(--spacing-4);">Group Reservation Inquiry</h3>
+              <!-- Formspree placeholder action -->
+              <form class="validate-form" action="https://formspree.io/f/placeholder" method="POST" novalidate>
+                <div class="form-group">
+                  <label class="form-label" for="name">Contact / Coordinator Name</label>
+                  <input type="text" id="name" name="name" class="form-control" required placeholder="Lead Educator or Event Organizer">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Organization Email</label>
+                  <input type="email" id="email" name="email" class="form-control" required placeholder="coordinator@school.edu">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="grade">Group Category</label>
+                  <select id="grade" name="grade" class="form-control">
+                    <option value="k12" selected>K-12 School Field Trip (STEM / Arts)</option>
+                    <option value="university">University / College Department</option>
+                    <option value="corporate">Corporate Private Buyout</option>
+                    <option value="tour">Tour Operator / Large Group (15+)</option>
+                    <option value="community">Community / Non-Profit Group</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="message">Group Size &amp; Visit Details</label>
+                  <textarea id="message" name="message" class="form-control" rows="4" required placeholder="Estimated number of guests, preferred dates, and any sensory or accessibility accommodations..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Group Request</button>
+              </form>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div style="flex: 1; min-width: 300px;" class="animate-fade-up delay-2">
+            <h2 style="text-align: start;">Group Concierge Office</h2>
+            <p style="margin-bottom: var(--spacing-5);">Our educational coordinators and private events team respond within 24 business hours.</p>
+            
+            <div style="display: flex; flex-direction: column; gap: var(--spacing-4); margin-bottom: var(--spacing-5);">
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-envelope"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Email</h4>
+                  <p style="color: var(--text-muted); margin: 0;">groups@lumina-exhibit.art</p>
+                </div>
+              </div>
+              
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-phone"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Phone</h4>
+                  <p style="color: var(--text-muted); margin: 0;">+1 (888) 586-4621 (LUMINA-1)</p>
+                </div>
+              </div>
+              
+              <div style="display: flex; align-items: flex-start; gap: var(--spacing-3);">
+                <div style="width: 48px; height: 48px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.5rem;">
+                  <i class="ph-fill ph-map-pin"></i>
+                </div>
+                <div>
+                  <h4 style="margin: 0;">Exhibition Pavilion</h4>
+                  <p style="color: var(--text-muted); margin: 0;">The Lumina Pavilion, 800 Innovation Way<br>Arts &amp; Design District, CA 94107</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Follow us -->
+            <div class="contact-follow">
+              <p class="trust-label" style="margin-bottom: var(--spacing-3);">Connect with LUMINA</p>
+              <div class="social-follow">
+                <a href="#" aria-label="LUMINA on Instagram"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#" aria-label="LUMINA on YouTube"><i class="ph ph-youtube-logo"></i></a>
+                <a href="#" aria-label="LUMINA on TikTok"><i class="ph ph-tiktok-logo"></i></a>
+                <a href="#" aria-label="LUMINA on LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+              </div>
+              <p class="caption" style="margin: var(--spacing-3) 0 0;">Follow our social channels for behind-the-scenes engineering clips and artist announcements.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Exhibition Location & Interactive Map Section -->
+    <section class="section" id="location-map" style="border-top: 1px solid var(--border);">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> Finding LUMINA</span>
+          <h2>Exhibition Location &amp; Interactive Map</h2>
+          <p>Situated in the heart of the Arts &amp; Innovation District. Seamlessly reachable via BART, Muni, and major expressways.</p>
+        </div>
+
+        <div class="map-grid-responsive animate-fade-up delay-1" style="margin-bottom: var(--spacing-6);">
+          <!-- Interactive Map Container -->
+          <div style="border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-lg); min-height: 440px; position: relative;">
+            <iframe
+              title="LUMINA Exhibition Pavilion Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086307185265!2d-122.40144932357771!3d37.78802211140065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807d4b4a1b0b%3A0x6b4c10a4e76d9bf0!2sYerba%20Buena%20Gardens!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style="border:0; min-height: 440px; width: 100%; display: block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Transit & Parking Guide Cards -->
+          <div style="display: flex; flex-direction: column; gap: var(--spacing-4);">
+            <div class="card" style="padding: var(--spacing-4); text-align: start; align-items: flex-start;">
+              <div class="card-icon" style="width: 48px; height: 48px; font-size: 1.4rem; margin-bottom: var(--spacing-3);"><i class="ph ph-train"></i></div>
+              <h4 style="margin-bottom: var(--spacing-2);">Public Transit &amp; Rail</h4>
+              <p style="font-size: 0.92rem; color: var(--text-muted); margin: 0; line-height: 1.5;">Powell St. &amp; Montgomery St. BART/Muni stations are a 5-minute walk (0.3 mi). Muni bus lines 8, 14, 30, and 45 stop directly outside the pavilion doors.</p>
+            </div>
+
+            <div class="card" style="padding: var(--spacing-4); text-align: start; align-items: flex-start;">
+              <div class="card-icon" style="width: 48px; height: 48px; font-size: 1.4rem; margin-bottom: var(--spacing-3);"><i class="ph ph-car"></i></div>
+              <h4 style="margin-bottom: var(--spacing-2);">Validated Parking</h4>
+              <p style="font-size: 0.92rem; color: var(--text-muted); margin: 0; line-height: 1.5;">Validated underground parking is located at Fifth &amp; Mission Garage (833 Mission St). All LUMINA ticket holders receive a $5 voucher discount at validation kiosks.</p>
+            </div>
+
+            <div class="card" style="padding: var(--spacing-4); text-align: start; align-items: flex-start;">
+              <div class="card-icon" style="width: 48px; height: 48px; font-size: 1.4rem; margin-bottom: var(--spacing-3);"><i class="ph ph-wheelchair"></i></div>
+              <h4 style="margin-bottom: var(--spacing-2);">ADA Step-Free Entry</h4>
+              <p style="font-size: 0.92rem; color: var(--text-muted); margin: 0; line-height: 1.5;">Dedicated step-free ground-level entrance with automatic sliding doors on Innovation Way. Motorcoach loading zone available for group arrivals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-3);"><img src="assets/images/campusly-logo.svg" alt="LUMINA" class="logo-img"></a>
+          <p>A world-class immersive art and light installation exhibit merging optics, laser architecture, and spatial sound into unforgettable sensory journeys.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="services.html">Tickets</a>
+            <a href="counselors.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Journal</a>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-links">
+            <a href="services.html">Ticket Pricing</a>
+            <a href="services.html#faq">Sensory &amp; Entry FAQs</a>
+            <a href="contact.html#location-map">Location &amp; Directions</a>
+            <a href="blog.html">Sensory Journal</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visitor Portal</h4>
+          <div class="footer-links">
+            <a href="login.html">Manage Tickets</a>
+            <a href="register.html">Create Account</a>
+            <a href="dashboard.html">Visitor Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUMINA Immersive Art &amp; Light Installation Exhibit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
